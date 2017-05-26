@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fiche Produit</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/blizzard.png">&nbsp;</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jeux<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="Overwatch.html"><img src="img/logoow.png">&nbsp;OVERWATCH</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="wow.html"> <img src="img/logowow.png">&nbsp;WORLD OF WARCRAFT</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="heartstone.html"><img src="img/logohs.jpg">&nbsp;HEARTHSTONE</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="hots.html"><img src="img/logohots.png">&nbsp;HEROES OF THE STORM</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="sc.html"><img src="img/logosc.png">&nbsp;STARCRAFT II</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="diablo.html"><img src="img/logod3.png">&nbsp;DIABLO III</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Héros<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Evènements</a></li>
+            <li><a href="#">Médias</a></li>
+            <li><a href="#">Actualités</a></li>
+            <li><a href="#">Communauté</a></li>
+            <li><a href="#">Esport</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                <input type="text" class="form-control" placeholder="Recherche un joueur">
+              </div>
+            </form>
+            <li><a href="#"><b>👤&nbsp;CONNEXION</b></a></li>
+            <li class="active"><a href="index.html"><b>🛒&nbsp;ACHETER</b></a></li>
+          </ul>
+
+
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+            <div id="main_area">
+                    <!-- Slider -->
+                    <div class="row">
+                       <center><h1></h1></center>
+                        <div class="col-md-8" id="slider">
+                            <!-- Top part of the slider -->
+
+                                    <div class="carousel slide" id="myCarousel">
+                                        <!-- Carousel items -->
+                                        <div class="carousel-inner">
+                                            <div class="active item" data-slide-number="0">
+                                            <center><img src="img/hots1.jpg" alt="image"></center></div>
+
+                                            <div class="item" data-slide-number="1">
+                                            <center><img src="img/hots2.jpg" alt="image"></center></div>
+
+                                            <div class="item" data-slide-number="2">
+                                            <center><img src="img/hots3.jpg" alt="image"></center></div>
+
+                                            <div class="item" data-slide-number="3">
+                                            <center><img src="img/hots4.jpg" alt="image"></center></div>
+
+                                        </div><!-- Carousel nav -->
+                                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                  <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                  <b>Heroes Of The Storm</b></a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                  <div class="panel-body"><b>Les Héroes légendaires de Blizzard</b><br>Les plus puissants marginaux du multivers Blizzard se lâchent dans
+                  Heroes of The Storm. Entre personnalités hautes en couleur et capacités incroyables, chaque héros peut faire la différence
+                dans une partie s'il est bien maîtrisé.</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                    <b>Des champs de batailles surchauffés</b></a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">Heroes of the Storm est un MOBA pas comme les autres, avec une variété de champs de bataille dynamiques aux quêtes et objectifs uniques.
+                     Déchaînez des hordes de zergs dans le laboratoire de Braxis,
+                     recrutez des pirates sans foi ni loi dans la baie de Cœur-Noir ou accueillez la puissance du Seigneur corbeau dans le Val maudit...</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    <b>Configuration Requise</b></a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body"><b>OS</b> : Windows® 10 64-bit<br>
+                                          <b>Processeur</b> : Intel® Core™ i5 ou AMD™ FX Series Processor<br>
+                                          <b>Vidéo</b> :  NVIDIA® GeForce® GTX 650 ou AMD Radeon™ HD 7790<br>
+                                          <b>Mémoire</b> : 4 GB RAM<br>
+                                          <b>Espace Disque</b> : 15 GB d'espace disque disponible<br>
+                                          <b>Internet</b> : Connexion internet haut-débit<br>
+                                          <b>Résolution</b> : 1024x768 ou supérieur</div>
+                </div>
+              </div>
+              <br><br><center><p><a href="#" class="btn btn-primary" role="button">⇩&nbsp;Téléchargement Gratuit</a></p></center>
+            </div>
+            </div>
+
+
+                        </div>
+                    <!--/Slider-->
+
+                    <div class="row hidden-xs" id="slider-thumbs">
+                            <!-- Bottom switcher of slider -->
+                            <ul class="hide-bullets">
+                                <li class="col-sm-1">
+                                    <a class="thumbnail" id="carousel-selector-0"><img src="img/hots1.jpg"></a>
+                                </li>
+
+                                <li class="col-sm-1">
+                                    <a class="thumbnail" id="carousel-selector-1"><img src="img/hots2.jpg"></a>
+                                </li>
+
+                                <li class="col-sm-1">
+                                    <a class="thumbnail" id="carousel-selector-2"><img src="img/hots3.jpg"></a>
+                                </li>
+
+                                <li class="col-sm-1">
+                                    <a class="thumbnail" id="carousel-selector-3"><img src="img/hots4.jpg"></a>
+                                </li>
+                            </ul>
+                    </div>
+
+                    <footer class="container-fluid text-center bg-lightgray">
+
+                            <div class="copyrights" style="margin-top:25px;">
+                                <p>Blizzard Entertainment © 2017, All Rights Reserved
+                                    <br>
+                                    <span>Fiche Produit by Valentin L</span></p>
+                            </div>
+                    </footer>
+
+
+
+<script>
+
+jQuery(document).ready(function($) {
+
+      $('#myCarousel').slider({
+              interval: 5000
+      });
+
+      $('#carousel-text').html($('#slide-content-0').html());
+
+      //Handles the carousel thumbnails
+     $('[id^=carousel-selector-]').click( function(){
+          var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+          var id = parseInt(id);
+          $('#myCarousel').slider(id);
+      });
+
+
+      // When the carousel slides, auto update the text
+      $('#myCarousel').on('slid.bs.carousel', function (e) {
+               var id = $('.item.active').data('slide-number');
+              $('#carousel-text').html($('#slide-content-'+id).html());
+      });
+});
+
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
